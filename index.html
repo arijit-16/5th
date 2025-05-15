@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arijit Pal Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Arijit Pal</h1>
+    <nav>
+      <a href="#about" class="active">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="themeToggle" aria-label="Toggle Theme">🌙</button>
+  </header>
+
+  <section class="hero" id="home">
+    <img src="https://res.cloudinary.com/dirvdnudn/image/upload/v1747285184/new_pic_irvxi8.jpg" alt="Arijit Pal" />
+    <div class="typing-line">Hi, I'm <span id="typed-text"></span></div>
+    <div class="tagline">I love working on ML projects and I'm a passionate problem solver.</div>
+  </section>
+
+  <section id="about" class="collapsible-section">
+    <div class="collapsible-header">About Me</div>
+    <div class="section-content">
+      <p class="fade-in-text">I'm Arijit Pal, a machine learning enthusiast and problem solver.</p>
+    </div>
+  </section>
+
+  <section id="projects" class="collapsible-section">
+    <div class="collapsible-header">Projects</div>
+    <div class="section-content">
+      <p class="fade-in-text"><a href="https://github.com/arijitpal/project1" target="_blank" rel="noopener">Project 1 - ML Model</a></p>
+      <p class="fade-in-text"><a href="https://github.com/arijitpal/project2" target="_blank" rel="noopener">Project 2 - Data Visualization</a></p>
+    </div>
+  </section>
+
+  <section id="skills" class="collapsible-section">
+    <div class="collapsible-header">Skills</div>
+    <div class="section-content">
+      <div class="skill">
+        <label>Python</label>
+        <div class="skill-bar"><div class="skill-level" style="width: 90%;">90%</div></div>
+      </div>
+      <div class="skill">
+        <label>Machine Learning</label>
+        <div class="skill-bar"><div class="skill-level" style="width: 85%;">85%</div></div>
+      </div>
+      <div class="skill">
+        <label>JavaScript</label>
+        <div class="skill-bar"><div class="skill-level" style="width: 75%;">75%</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="collapsible-section">
+    <div class="collapsible-header">Contact</div>
+    <div class="section-content">
+      <p class="fade-in-text">Email: <a href="mailto:arijitpal090@gmail.com">arijitpal090@gmail.com</a></p>
+      <p class="fade-in-text">Phone: <a href="tel:+918617699217">+91 86176 99217</a></p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Arijit Pal
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
